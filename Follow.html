@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Follow Me</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #000000, #1f1f1f);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      display: block;
+      width: 200px;
+      margin: 15px;
+      padding: 15px;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      background-color: #e1306c; /* Instagram color */
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #c72e63;
+    }
+
+    .youtube-btn {
+      background-color: #ff0000; /* YouTube red */
+    }
+
+    .youtube-btn:hover {
+      background-color: #cc0000;
+    }
+
+    .coming-soon {
+      font-size: 12px;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌟 Follow Me Online</h1>
+
+  <a class="btn" href="https://www.instagram.com/oy_bikram?igsh=MXBmanlvMm9ycDJ1MA==" target="_blank">
+    Follow on Instagram
+  </a>
+
+  <a class="btn youtube-btn" href="#" onclick="alert('YouTube Channel Coming Soon!')">
+    YouTube Channel <div class="coming-soon">(Coming Soon)</div>
+  </a>
+
+</body>
+</html>
